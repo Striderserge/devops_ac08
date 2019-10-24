@@ -1,0 +1,9 @@
+language: python
+python:
+- 3.6
+before_install:
+- python --version
+- pip install -r requiriments.txt
+script:
+- pylint_runner
+- pytest --cov=com.devops08 com/faculdadeimpacta/calculadora/test

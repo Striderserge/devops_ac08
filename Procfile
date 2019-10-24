@@ -1,0 +1,1 @@
+web guinicorn --pythonpath com/faculdadeimpacta/calculadora app_web_start:app
